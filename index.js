@@ -6,11 +6,11 @@ function happyHolidays(){
 happyHolidays()
 
 function happyHolidaysTo(name) {
-  console.log('Happy Holidays,')
-  return  ('Happy holidays, ${name}!')
+console.log('Happy holidays,')
+  return  ('${name}!')
 }
 
-happyHolidaysTo("Craig")
+happyHolidaysTo('Craig')
 
 function happyHolidayTo(holiday, name) {
   return ('Happy ${holiday}, ${name}!')
