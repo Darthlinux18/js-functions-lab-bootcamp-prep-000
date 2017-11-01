@@ -6,8 +6,7 @@ function happyHolidays(){
 happyHolidays()
 
 function happyHolidaysTo(name) {
-console.log('Happy holidays,')
-  return  ('${name}!')
+console.log('Happy holidays, ${name}!')
 }
 
 happyHolidaysTo('Craig')
